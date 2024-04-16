@@ -71,10 +71,15 @@ internal class Program
             var sm2 = sm[1];
 
             if (sm1 == sm2)
+            {
+                Console.WriteLine("");
                 Console.WriteLine("Aprovado na segunda validação");
+            }
             else 
+            {
+                Console.WriteLine("");
                 Console.WriteLine("Reporvado na segunda validação");
-
+            }
             
         }
     }
